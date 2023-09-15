@@ -7,8 +7,12 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: grey;
   padding: 5px;
+
 }
 
 nav ul {
@@ -17,7 +21,8 @@ nav ul {
 
 nav li {
   display: inline;
-  margin-right: 10px;
+  margin: 0 10px;
+  list-style: none;
 }
 
 nav a {
