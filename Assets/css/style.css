@@ -10,9 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
-  padding: 5px;
-
+  
 }
 
 nav ul {
@@ -22,13 +20,4 @@ nav ul {
 nav li {
   margin: 0 10px;
   list-style: none;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: deepskyblue;
 }
