@@ -1,23 +1,23 @@
-html,
-
-body {
-  padding: 10;
-  margin: 50;
-  border-top:0cqb;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-nav ul {
+ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightpink
 }
 
-nav li {
-  margin: 0 10px;
-  list-style: none;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
 }
